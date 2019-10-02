@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="19A558d" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="UserEntity" representedClassName=".UserEntity" syncable="YES" codeGenerationType="category">
+        <attribute name="email" attributeType="String" maxValueString="100"/>
+        <attribute name="firstName" attributeType="String" minValueString="2" maxValueString="100"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="imageOnServer" attributeType="URI"/>
+        <attribute name="isMyFriend" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastName" attributeType="String" minValueString="2" maxValueString="100"/>
+        <attribute name="phone" attributeType="String" minValueString="5" maxValueString="20"/>
+    </entity>
+    <elements>
+        <element name="UserEntity" positionX="-63" positionY="-18" width="128" height="163"/>
+    </elements>
+</model>
